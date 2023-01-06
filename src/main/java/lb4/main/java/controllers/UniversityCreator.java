@@ -19,8 +19,8 @@ public class UniversityCreator {
     }
 
     public University createTypicalUniversity() {
-        Student firstStudent = new StudentCreator().createStudent(new HumanCreator().createHuman("Shevchenko", "Taras", "Grigorovich", Sex.MALE));
-        Student secondStudent = new StudentCreator().createStudent(new HumanCreator().createHuman("Dmytrenko", "Ivan", "Ivanovich", Sex.MALE));
+        Student firstStudent = new StudentCreator().createStudent(new HumanCreator().createHuman("Shevchenk", "Taras", "Grigorovich", Sex.MALE));
+        Student secondStudent = new StudentCreator().createStudent(new HumanCreator().createHuman("Dmytrenk", "Ivan", "Ivanovich", Sex.MALE));
         Student thirdStudent = new StudentCreator().createStudent(new HumanCreator().createHuman("Vasiliv", "Viktor", "Viktorovich", Sex.MALE));
         Student fourthStudent = new StudentCreator().createStudent(new HumanCreator().createHuman("Onufriiv", "Taras", "Grigorovich", Sex.MALE));
 
